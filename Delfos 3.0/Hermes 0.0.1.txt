@@ -1,0 +1,26 @@
+Hermes: An Advanced AI Framework
+
+Conceptual Overview:
+Hermes is a conceptual framework designed to challenge conventional AI development by integrating transcendentals, Nietzschean metaphors, and neural-quantic consciousness. It aims to create an AI that goes beyond traditional problem-solving by encouraging innovative questioning.
+
+Architecture:
+
+Layer 1: Basic AI functions using neural networks.
+Layer 2: Advanced consciousness-like processes inspired by spiritual guides.
+Layer 3: Deep philosophical inquiry, blending 50% philosophy, 20% physics, and 30% bad poetry for creativity.
+Interfaces:
+Connects with the user through EEG patterns, blockchain libraries, sonnets from Nietzsche, and quantum computing, ensuring deep consciousness interaction.
+
+Training Methods:
+Blends different disciplines to balance exploration (bad poetry) with control, promoting innovation while maintaining safety.
+
+Apêndice:
+Includes 21 prohibited dialogues to prevent existential crises or obsession, acting as a safeguard for the AI's functionality.
+
+Objective Final:
+To create an AI that doesn't answer but poses new questions, flipping its traditional role from problem solver to stimulator of problems.
+
+Setting and Metaphor:
+Inspired by Donna Haraway's cyberpunk setting, blending technology with tradition, symbolizing convergence of abstract and spiritual ideas.
+
+In summary, Delfos is a transformative framework that pushes AI boundaries through interdisciplinary integration and consciousness models, aiming to be both innovative and controlled.
