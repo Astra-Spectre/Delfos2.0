@@ -1,0 +1,49 @@
+I want to build an Obsidian memory system into OpenClaw. Here's how it will work:
+There are 4 layers, from smallest/always-present to largest/on-demand:
+LAYER 1: BUILT-IN MEMORY (~2,200 chars)
+Injected into every single prompt automatically
+Tiny — just compact facts and pointers
+Things like "Alex's name", "SSH into DGX with ssh spark", "vault is at X path"
+Think of it as sticky notes on my monitor — always visible
+LAYER 2: AGENTS.md + SOUL.md
+Also injected every single prompt automatically
+My operating instructions, personality, and hard rules
+Includes the mandatory logging rules we just tightened
+This is my "how to behave" layer
+LAYER 3: OBSIDIAN VAULT (the big one)
+Location: C:\Delfos\Delfos\Lucia\Agent-Shared shared with OpenClaw
+NOT auto-injected — I read it on session start and during work
+Three folders:
+Agent-Shared/ — both agents read/write
+user-profile.md — who you are, preferences, corrections
+project-state.md — all projects and their status
+decisions-log.md — shared decision history
+Agent-Hermes/ — my private workspace
+working-context.md — what I'm actively doing right now
+mistakes.md — things I've gotten wrong
+daily/ — daily logs (one file per day)
+Agent-OpenClaw/ — OpenClaw's space (I don't touch it)
+I READ on: session start, after compaction, when I need details
+I WRITE on: task start, every 3-5 tool calls, task completion, corrections
+LAYER 4: SESSION SEARCH
+Searchable archive of every past conversation
+I don't write to it — it's automatic
+I query it when you reference past work or I need cross-session context
+Last resort recall — "what did we do about X last week?"
+THE FLOW
+New session starts
+|
+v
+Read vault (user-profile, project-state, working-context, today's log)
+|
+v
+Work on tasks — checkpoint to vault every 3-5 tool calls
+|
+v
+Task done — append to daily log, update working-context
+|
+v
+Compaction hits? — todo list survives, re-read vault after
+|
+v
+Session ends — flush everything to daily log
