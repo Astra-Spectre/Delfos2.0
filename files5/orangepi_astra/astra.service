@@ -1,0 +1,15 @@
+[Unit]
+Description=ASTRA SPECTRE - Sistema de alarme de medicacao
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/orangepi/Projetos/main.py
+WorkingDirectory=/home/orangepi/Projetos
+Restart=always
+RestartSec=3
+User=root
+
+[Install]
+WantedBy=multi-user.target
