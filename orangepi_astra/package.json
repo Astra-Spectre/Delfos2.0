@@ -1,0 +1,14 @@
+{
+  "name": "astra-spectre-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard web do ASTRA SPECTRE - painel de controle de medicação via MQTT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mqtt": "^5.7.0",
+    "ws": "^8.17.0"
+  }
+}
